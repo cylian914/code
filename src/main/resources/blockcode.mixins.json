@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "package": "fr.luna.blockcode.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "mixins": [
+    "AddBocksMixin",
+    "AddGameRuleMixin",
+    "AddItemMixin",
+    "BooleanValueAccesor",
+    "CollectingNeighborUpdaterAcessor",
+    "LevelAcessor",
+    "ServerLevelAcessor"
+  ]
+}
